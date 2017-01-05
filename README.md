@@ -24,6 +24,7 @@ http://localhost:8080/poi/point/distance/20/10/10
 # Runing application at your own server
 
 All you need to do is get the code and run the command line "mvn clean spring-boot:run" to get our POI running at hour own server.
+
 OBS1: Please, make sure you have a MySql server running with grants to user "admin", with pass "admin" (check our application.properties file on "scr/main/resources") .
 
 OBS2: You also need to run our file "points.sql", found inside the directory "scripts" in your MySql server in order to prepare your database.
